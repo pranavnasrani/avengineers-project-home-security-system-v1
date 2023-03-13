@@ -5,9 +5,6 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.AB, function () {
     alert = 0
 })
-makerbit.onIrButton(IrButton.Any, IrButtonAction.Pressed, function () {
-	
-})
 input.onButtonPressed(Button.B, function () {
     alert = 0
     basic.showString("Disarmed")
